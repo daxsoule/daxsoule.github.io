@@ -1,2 +1,2 @@
 # daxsoule.github.io
-Neanderthal Lab Website
+[Check out our Neanderthal Lab site] : https://daxsoule.github.io
