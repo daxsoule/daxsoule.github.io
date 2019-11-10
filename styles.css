@@ -548,6 +548,14 @@ h4{
   }
 }
 
+@media(max-width:420px) {
+  .brand-heading {
+    text-align: center !important;
+  }
+  .about-scroll{
+  	margin-top: 35px !important;
+  }
+}
 
 
 
