@@ -412,7 +412,7 @@ h4{
 	border-bottom-color:#8fb800;
 }
 
-@media only screen and (max-width:1200px) {
+@media only screen and (max-width:1366px) {
 	.main-timeline .timeline-icon:before {
 		width:50px;
 		right:-50px
@@ -426,7 +426,13 @@ h4{
 	.main-timeline .timeline-content {
 		margin-top:75px;
 	}
+	.brand-heading {
+		font-size: 260% !important;
+	}
+	.bh-right {
 
+    	margin-right: -35px !important;
+  	}
 }
 
 @media only screen and (max-width:990px) {
@@ -549,6 +555,11 @@ h4{
 }
 
 @media(max-width:420px) {
+	#projects-section {
+		padding: 10% 8%;
+		text-align: center;
+	}
+
   .brand-heading {
   	margin-top: -2%;
     text-align: center !important;
