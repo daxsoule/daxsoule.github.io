@@ -9,9 +9,28 @@
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.6.0/css/mdb.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
-	<title>News</title>
+	<style type="text/css">
+		.row > div {
+      		padding: 0 4px !important;
+		}
+
+		img {
+		    margin-top: 8px;
+		    vertical-align: middle;
+		  
+		}
+
+		.img-gallery{
+			padding: 0 5%;
+		}
+
+		footer{
+			margin-top: 2%;
+		}
+	</style>
+	<title>Gallery</title>
 </head>
-<body>
+<body class="">
 	<nav class="navbar navbar-light navbar navbar-expand-xl navbar-collapse fixed-top" id="mainNav">
 		<div class="container">
 
@@ -26,7 +45,7 @@
 	            <ul class="nav navbar-nav ml-auto">
 	                <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link active js-scroll-trigger" href="about.html">About Dax</a></li>
 	                <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="team.html">Team</a></li>
-	                <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="#">News</a></li>
+	                <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="#">Gallery</a></li>
 	                <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="education.html">Education</a></li>
 	                <li class="nav-item nav-link js-scroll-trigger" role="presentation">
 	                	<a class="nav-link js-scroll-trigger" href="contact.html">Contact</a>
@@ -35,14 +54,68 @@
 	        </div>
 	    </div>
 	</nav>
-	<h1>Hello World</h1>
+
+	<div class="row justify-content-center">
+		<div class="col-lg-12">
+			<h1 style="text-align: center;">Sites of our past trips</h1>
+		</div>
+	</div>
+
+	<div class="row justify-content-center">
+		<div class="col-lg-12">
+			<p style="text-align: center; margin-top: -5%;">Hover over the image to get more info!</p>
+		</div>
+	</div>
+
+	<hr style="width: 45%; height: 15%; margin-bottom: 5%;">
+
+	<div class="container-fluid img-gallery">
+		<div class="row justify-content-center"> 
+		  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+		    <img src="https://www.w3schools.com/w3images/wedding.jpg"  class="img-fluid">
+		    <img src="https://www.w3schools.com/w3images/rocks.jpg"  class="img-fluid">
+		    <img src="https://www.w3schools.com/w3images/falls2.jpg"  class="img-fluid">
+		    <img src="https://www.w3schools.com/w3images/paris.jpg"  class="img-fluid">
+		    <img src="https://www.w3schools.com/w3images/nature.jpg"  class="img-fluid">
+		    <img src="https://www.w3schools.com/w3images/mist.jpg"  class="img-fluid">
+		    <img src="https://www.w3schools.com/w3images/paris.jpg"  class="img-fluid">
+		  </div>
+		  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+		    <img src="https://www.w3schools.com/w3images/underwater.jpg"  class="img-fluid">
+		    <img src="https://www.w3schools.com/w3images/ocean.jpg"  class="img-fluid">
+		    <img src="https://www.w3schools.com/w3images/wedding.jpg"  class="img-fluid">
+		    <img src="https://www.w3schools.com/w3images/mountainskies.jpg"  class="img-fluid">
+		    <img src="https://www.w3schools.com/w3images/rocks.jpg"  class="img-fluid">
+		    <img src="https://www.w3schools.com/w3images/underwater.jpg"  class="img-fluid">
+		  </div>  
+		  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+		    <img src="https://www.w3schools.com/w3images/wedding.jpg"  class="img-fluid">
+		    <img src="https://www.w3schools.com/w3images/rocks.jpg"  class="img-fluid">
+		    <img src="https://www.w3schools.com/w3images/falls2.jpg"  class="img-fluid">
+		    <img src="https://www.w3schools.com/w3images/paris.jpg"  class="img-fluid">
+		    <img src="https://www.w3schools.com/w3images/nature.jpg"  class="img-fluid">
+		    <img src="https://www.w3schools.com/w3images/mist.jpg"  class="img-fluid">
+		    <img src="https://www.w3schools.com/w3images/paris.jpg"  class="img-fluid">
+		  </div>
+		  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+		    <img src="https://www.w3schools.com/w3images/underwater.jpg"  class="img-fluid">
+		    <img src="https://www.w3schools.com/w3images/ocean.jpg"  class="img-fluid">
+		    <img src="https://www.w3schools.com/w3images/wedding.jpg"  class="img-fluid">
+		    <img src="https://www.w3schools.com/w3images/mountainskies.jpg"  class="img-fluid">
+		    <img src="https://www.w3schools.com/w3images/rocks.jpg"  class="img-fluid">
+		    <img src="https://www.w3schools.com/w3images/underwater.jpg"  class="img-fluid">
+		  </div>
+		</div>
+	</div>
 
 
-	<footer>
-	    <div class="container text-center" style="">
-	        <p style="color: #fff">Copyright © Neanderthal Lab 2019</p>
-	    </div>
-	</footer>
+<footer>
+	   <div class="container text-center" style="">
+	       <p style="color: #fff">Copyright © Neanderthal Lab 2019</p>
+	   </div>
+</footer>
+</body>
+<script type="text/javascript" src="script.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
