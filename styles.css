@@ -140,6 +140,9 @@ h1, h2, h3, h4, h5, h6 {
   vertical-align: middle;
 }
 
+.brand-heading{
+	font-size: 500% !important;
+}
 
 
 .btn-circle:focus, .btn-circle:hover {
@@ -465,7 +468,6 @@ h4{
 }
 
 .grad-row{
-	margin: 0 10%;
 	padding: 0 0 5% 0;
 }
 
@@ -615,25 +617,55 @@ h4{
 
 @media(max-width:920px) {
   .brand-heading {
-    text-align: left !important;
+    text-align: center !important;
+    font-size: 300% !important;
+  }
+
+  #dax-contact {
+  	border-radius: 50%; 
+  	width: 40%; 
+  	padding: 2% 0;
   }
 }
 
 @media(max-width:420px) {
+	h3 {
+		text-align: center;
+	}
+	#the-students {
+		padding-top: 2%;
+	}
+
+	.card {
+		margin: 5% 0;
+	}
+
 	#projects-section {
 		padding: 10% 8%;
 		text-align: center;
 	}
 
   .brand-heading {
-  	margin-top: -2%;
+
     text-align: center !important;
+    font-size: 300% !important;
   }
   .about-scroll{
   	margin-top: 35px !important;
   }
+
+  #dax-contact {
+  	border-radius: 50%; 
+  	width: 40%; 
+  	padding: 2% 0;
+  }
 }
 
+@media(max-width:420px) {
+	.brand-heading {
+		font-size: 75% !important;
+	}
+}
 
 
 
