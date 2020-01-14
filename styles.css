@@ -127,6 +127,13 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #000;
   background-size: cover;
 }
+/*
+.parallax{ 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
 
 .btn {
   display: inline-block;
@@ -479,6 +486,38 @@ h4{
 	padding: 5% 0;
 }
 
+ol {
+  margin: 0 0 1.5em;
+  padding: 0;
+  counter-reset: item;
+}
+
+ol > li {
+  margin: 0;
+  padding: 0 0 0 2em;
+  text-indent: -1em;
+  list-style-type: none;
+  counter-increment: item;
+}
+
+ol > li:before {
+  display: inline-block;
+  width: 1em;
+  padding-right: 0.5em;
+  font-weight: bold;
+  text-align: right;
+  content: counter(item) ".";
+}
+
+.course-desc{
+	padding: 2% 0;
+}
+
+.course-imgs{
+	width: 80px;
+	height: 80px;
+}
+
 @media only screen and (max-width:1366px) {
 	.main-timeline .timeline-icon:before {
 		width:50px;
@@ -658,6 +697,9 @@ h4{
   	border-radius: 50%; 
   	width: 40%; 
   	padding: 2% 0;
+  }
+  #educ{
+  	font-size: 250% !important;
   }
 }
 
