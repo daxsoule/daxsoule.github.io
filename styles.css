@@ -9,6 +9,10 @@ html {
 	color: white;
 }
 
+.too-much-pad {
+	margin: -5% 0;
+}
+
 .contact-points{
 	margin-bottom: 5%;
 	padding-top: 2%;
@@ -89,7 +93,7 @@ body {
 }
 
 .masthead .intro-body .brand-heading {
-    font-size: 60px !important;
+    font-size: 40px !important;
     text-align: left;
     text-shadow: 2px 1px  10px #000;
 }
@@ -150,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .brand-heading{
-	font-size: 500% !important;
+	font-size: 200% !important;
 }
 
 
@@ -520,6 +524,12 @@ ol > li:before {
 	height: 80px;
 }
 
+.bio-text{
+	font-size: 65%;
+    text-align: center;
+    margin: 5%;
+}
+
 @media only screen and (max-width:1366px) {
 	.main-timeline .timeline-icon:before {
 		width:50px;
@@ -535,7 +545,7 @@ ol > li:before {
 		margin-top:75px;
 	}
 	.brand-heading {
-		font-size: 260% !important;
+		font-size: 200% !important;
 	}
 	.bh-right {
 
@@ -659,7 +669,7 @@ ol > li:before {
 @media(max-width:920px) {
   .brand-heading {
     text-align: center !important;
-    font-size: 300% !important;
+    font-size: 200% !important;
   }
 
   #dax-contact {
@@ -689,7 +699,7 @@ ol > li:before {
   .brand-heading {
 
     text-align: center !important;
-    font-size: 300% !important;
+    font-size: 90% !important;
   }
   .about-scroll{
   	margin-top: 35px !important;
