@@ -10,12 +10,15 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 	<style type="text/css">
+		html, body {width: auto!important; overflow-x: hidden!important} 
+
 		.row > div {
       		padding: 0 4px !important;
 		}
 
 		img {
-		    margin-top: 8px;
+			padding: 2% 0;
+		    /*margin-top: 2%;*/
 		    vertical-align: middle;
 		  
 		}
@@ -31,7 +34,7 @@
 	<title>Gallery</title>
 </head>
 <body class="">
-	<nav class="navbar navbar-light navbar navbar-expand-xl navbar-collapse fixed-top" id="mainNav">
+	<nav class="navbar navbar-light navbar-collapse navbar-expand-xl navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-expand-xs fixed-top" id="mainNav" style="color:white;">
 		<div class="container">
 
     		<a class="navbar-brand js-scroll-trigger" href="index.html">Neanderthal Lab</a>
@@ -62,13 +65,13 @@
 	</nav>
 
 	<div class="row justify-content-center">
-		<div class="col-lg-12">
-			<h1 style="text-align: center;">Sites of our past trips</h1>
+		<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+			<h1 style="text-align: center; padding-top: 5%;">Sites of our past trips</h1>
 		</div>
 	</div>
 
 	<div class="row justify-content-center">
-		<div class="col-lg-12">
+		<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
 			<p style="text-align: center; margin-top: -5%;">Hover over the image to get more info!</p>
 		</div>
 	</div>
@@ -77,42 +80,178 @@
 
 	<div class="container-fluid img-gallery">
 		<div class="row justify-content-center"> 
+			<!-- Column 1  -->
 		  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-		    <img src="https://www.w3schools.com/w3images/wedding.jpg"  class="img-fluid">
-		    <img src="https://www.w3schools.com/w3images/rocks.jpg"  class="img-fluid">
-		    <img src="https://www.w3schools.com/w3images/falls2.jpg"  class="img-fluid">
-		    <img src="https://www.w3schools.com/w3images/paris.jpg"  class="img-fluid">
-		    <img src="https://www.w3schools.com/w3images/nature.jpg"  class="img-fluid">
-		    <img src="https://www.w3schools.com/w3images/mist.jpg"  class="img-fluid">
-		    <img src="https://www.w3schools.com/w3images/paris.jpg"  class="img-fluid">
+			<div class="view overlay">
+		    	<img src="assets/IMG_4576.JPG"  class="img-fluid">
+		    	<div class="mask flex-center rgba-black-strong">
+		    		<p class="white-text" style="text-align: center;">Part of the Neanderthal Lab at JFK, before their BRAVOSEIS '20 Expedition <br> Feb. 3, 2020</p>
+		    	</div>
+		    </div>
+			<div class="view overlay">
+		    	<img src="assets/DSC_0052.JPG"  class="img-fluid">
+		    	<div class="mask flex-center rgba-black-strong">
+				        <p class="white-text">Ushuaia, Argentina Feb. 4, 2020</p>
+				</div>
+		    </div>
+		    <div class="view overlay">
+		    	<img src="assets/DSC_0068.JPG"  class="img-fluid">
+		    	<div class="mask flex-center rgba-black-strong">
+		    		<p class="white-text">Ushuaia, Argentina Feb. '20</p>
+		    	</div>	
+			</div>
+			<div class="view overlay">
+				<img src="assets/230D1D55-070E-491A-A02D-870D7D648BCA.jpg"  class="img-fluid">
+				<div class="mask flex-center rgba-black-strong">
+					<p class="white-text" style="text-align: center;">Glacier on Livingston Island, Juan Carlos Base Antarctica <br> Feb. '20</p>
+				</div>
+			</div>
+			<div class="view overlay">
+				<img src="assets/IMG_4751.JPG"  class="img-fluid">
+				<div class="mask flex-center rgba-black-strong">
+					<p class="white-text" style="text-align: center;">Views from Tierra del Fuego National Park, Argentina Feb. 5, 2020</p>
+				</div>
+			</div>
+			<div class="view overlay">
+				<img src="assets/IMG_5085.JPG"  class="img-fluid">
+				<div class="mask flex-center rgba-black-strong">
+					<p class="white-text" style="text-align: center;">Gentoo penguin on Livingston Island, Antarctica <br> Feb. 11, 2020</p>
+				</div>
+			</div>
+			<div class="view overlay">
+				<img src="assets/DSC_0755.JPG"  class="img-fluid">
+				<div class="mask flex-center rgba-black-strong">
+					<p class="white-text" style="text-align: center">Views from hike in Tierra del Fuego National Park, Argentina <br> Feb. 5, 2020</p>
+				</div>
+			</div>		
 		  </div>
+		  <!-- Column 2 -->
 		  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-		    <img src="https://www.w3schools.com/w3images/underwater.jpg"  class="img-fluid">
-		    <img src="https://www.w3schools.com/w3images/ocean.jpg"  class="img-fluid">
-		    <img src="https://www.w3schools.com/w3images/wedding.jpg"  class="img-fluid">
-		    <img src="https://www.w3schools.com/w3images/mountainskies.jpg"  class="img-fluid">
-		    <img src="https://www.w3schools.com/w3images/rocks.jpg"  class="img-fluid">
-		    <img src="https://www.w3schools.com/w3images/underwater.jpg"  class="img-fluid">
+		  	<div class="view overlay">
+		    	<img src="assets/IMG_5020.JPG"  class="img-fluid">
+		    	<div class="mask flex-center rgba-black-strong">
+		    		<p class="white-text" style="text-align: center;">Chinstrap Penguin on Juan Carlos Base, Antarctica Feb. '20</p>
+		    	</div>
+		    </div>
+		    <div class="view overlay">
+		    	<img src="assets/IMG_4761.JPG"  class="img-fluid">
+		    	<div class="mask flex-center rgba-black-strong">
+		    		<p class="white-text" style="text-align: center;">Chilean Mountain view through trees in Ushuaia <br> Feb. 6, 2020</p>
+		    	</div>
+		    </div>
+		    <div class="view overlay">
+		    	<img src="assets/IMG_5161.JPG"  class="img-fluid">
+		    	<div class="mask flex-center rgba-black-strong">
+		    		<p class="white-text" style="text-align: center;">Leopard Seal on Livingston Island, Anatarctica<br> Feb. 11, 2020</p>
+		    	</div>
+		    </div>
+		    <div class="view overlay">
+		    	<img src="assets/IMG_1186.JPG"  class="img-fluid">
+		    	<div class="mask flex-center rgba-black-strong">
+		    		<p class="white-text" style="text-align: center;">Miguel assisting the Spaniards on Juan Carlos Base, Antarctica <br> Feb. 12, 2020</p>
+		    	</div>
+		    </div>
+		    <div class="view overlay">
+		    	<img src="assets/IMG_5095.JPG"  class="img-fluid">
+		    	<div class="mask flex-center rgba-black-strong">
+		    			<p class="white-text" style="text-align: center;">Chinstrap Couple on Livingston Island, Antarctica <br> Feb. 11, 2020</p>
+		    	</div>
+		    </div>
+		    <div class="view overlay">
+		    	<img src="assets/IMG_4751.JPG"  class="img-fluid">
+		    	<div class="mask flex-center rgba-black-strong">
+		    			<p class="white-text" style="text-align: center;">Coastal View from Tierra del Fuego National Park, Argentina <br> Feb. 6, 2020</p>
+		    	</div>
+		    </div>
 		  </div>  
+		  <!-- Column 3 -->
 		  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-		    <img src="https://www.w3schools.com/w3images/wedding.jpg"  class="img-fluid">
-		    <img src="https://www.w3schools.com/w3images/rocks.jpg"  class="img-fluid">
-		    <img src="https://www.w3schools.com/w3images/falls2.jpg"  class="img-fluid">
-		    <img src="https://www.w3schools.com/w3images/paris.jpg"  class="img-fluid">
-		    <img src="https://www.w3schools.com/w3images/nature.jpg"  class="img-fluid">
-		    <img src="https://www.w3schools.com/w3images/mist.jpg"  class="img-fluid">
-		    <img src="https://www.w3schools.com/w3images/paris.jpg"  class="img-fluid">
+		  	<div class="view overlay">
+		    	<img src="assets/IMG_6976.JPG"  class="img-fluid">
+		    	<div class="mask flex-center rgba-black-strong">
+		    		<p class="white-text" style="text-align: center;">Lauren and Jacqueline assisting the Spaniards on Juan Carlos Base <br> Feb. 12, 2020</p>
+		    	</div>
+		    </div>
+		    <div class="view overlay">
+		    	<img src="assets/DSC_0483.JPG"  class="img-fluid">
+		    	<div class="mask flex-center rgba-black-strong">
+		    		<p class="white-text" style="text-align: center;">Chilean Mountains view from <br> Tierra del Fuego National Park, Argentina Feb. '20</p>
+		    	</div>
+		    </div>
+		    <div class="view overlay">
+		    	<img src="assets/DSC_0656.JPG"  class="img-fluid">
+		    	<div class="mask flex-center rgba-black-strong">
+				        <p class="white-text">Livingston Island, Antarctica Feb. '20</p>
+				</div>
+			</div>
+		    <div class="view overlay">
+		    	<img src="https://www.w3schools.com/w3images/paris.jpg"  class="img-fluid">
+		    	<div class="mask flex-center rgba-black-strong">
+		    		<p class="white-text" style="text-align: center;"></p>
+		    	</div>
+		    </div>
+		    <div class="view overlay">
+		    	<img src="https://www.w3schools.com/w3images/nature.jpg"  class="img-fluid">
+		    	<div class="mask flex-center rgba-black-strong">
+		    		<p class="white-text" style="text-align: center;"></p>
+		    	</div>
+		    </div>
+		    <div class="view overlay">
+		    	<img src="https://www.w3schools.com/w3images/mist.jpg"  class="img-fluid">
+		    	<div class="mask flex-center rgba-black-strong">
+		    		<p class="white-text" style="text-align: center;"></p>
+		    	</div>
+		    </div>
+		    <div class="view overlay">
+		    	<img src="https://www.w3schools.com/w3images/paris.jpg"  class="img-fluid">
+		    	<div class="mask flex-center rgba-black-strong">
+		    		<p class="white-text" style="text-align: center;"></p>
+		    	</div>
+		    </div> 
 		  </div>
+
+		  <!-- Column 4 -->
 		  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-		    <img src="https://www.w3schools.com/w3images/underwater.jpg"  class="img-fluid">
-		    <img src="https://www.w3schools.com/w3images/ocean.jpg"  class="img-fluid">
-		    <img src="https://www.w3schools.com/w3images/wedding.jpg"  class="img-fluid">
-		    <img src="https://www.w3schools.com/w3images/mountainskies.jpg"  class="img-fluid">
-		    <img src="https://www.w3schools.com/w3images/rocks.jpg"  class="img-fluid">
-		    <img src="https://www.w3schools.com/w3images/underwater.jpg"  class="img-fluid">
-		  </div>
-		</div>
-	</div>
+		  	<div class="view overlay">
+		  		<img src="assets/IMG_5083.JPG"  class="img-fluid">
+		  		<div class="mask flex-center rgba-black-strong">
+		  			<p class="white-text" style="text-align: center;">Gentoo Penguin waving, Livingston Island, Antarctica <br> Feb. 11, 2020	
+		  			</p>
+		  		</div>
+		  	</div>
+		  	<div class="view overlay">
+		  		<img src="assets/DSC_0616.JPG"  class="img-fluid">
+		  		<div class="mask flex-center rgba-black-strong">
+		  			<p class="white-text" style="text-align: center;">View from Trail in Tierra del Fuego National Park, Argentina <br> Feb. 5, 2020</p>
+		  		</div>
+		  	</div>
+		  	<div class="view overlay">
+		  		<img src="assets/IMG_5797.JPG"  class="img-fluid">
+		  		<div class="mask flex-center rgba-black-strong">
+		  			<p class="white-text" style="text-align: center;">Miguel showing off his evacuation suit in he put on in 40 seconds! <br> Feb. 7, 2020</p>
+		  		</div>
+		  	</div>
+		  	<div class="view overlay">
+		  		<img src="https://www.w3schools.com/w3images/mountainskies.jpg"  class="img-fluid">
+		  		<div class="mask flex-center rgba-black-strong">
+		  			<p class="white-text" style="text-align: center;"></p>
+		  		</div>
+		  	</div>
+		  	<div class="view overlay">
+		  		<img src="https://www.w3schools.com/w3images/rocks.jpg"  class="img-fluid">
+		  		<div class="mask flex-center rgba-black-strong">
+		  			<p class="white-text" style="text-align: center;"></p>
+		  		</div>
+		  	</div>
+		  	<div class="view overlay">
+		  		<img src="https://www.w3schools.com/w3images/underwater.jpg"  class="img-fluid">
+		  		<div class="mask flex-center rgba-black-strong">
+		  			<p class="white-text" style="text-align: center;"></p>
+		  		</div>
+		  	</div>
+		  </div> <!-- End of column 4 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
 
 
 <footer>
