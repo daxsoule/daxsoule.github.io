@@ -20,6 +20,34 @@ html, body {width: auto!important; overflow-x: hidden!important}
 	padding-top: 2%;
 }
 
+#cv{
+	margin: 3% 0;
+}
+
+#pub-title{
+	margin-bottom: 3%;
+}
+
+#pub-links {
+	margin-bottom: 5%;
+}
+
+#pub-links a{
+	color:rgba(0,0,0,.9);
+}
+
+#pub-link-row{
+	margin-bottom: 2%;
+}
+
+#undergrad-2{
+	margin-top: 20%;
+}
+
+#undergrad-3{
+	margin-top: 20%;
+}
+
 .d-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -92,6 +120,11 @@ body {
 
 .navbar-brand {
 	color: #fff !important;
+}
+
+.masthead {
+	background-position: 50% 50%;
+	background-size: 100%;
 }
 
 .masthead .intro-body .brand-heading {
@@ -197,6 +230,10 @@ a:focus, a:hover {
 a:hover {
   color: #21b17b;
   text-decoration: underline;
+}
+
+li {
+	margin: 0 !important;
 }
 
 .btn-circle {
