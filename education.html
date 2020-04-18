@@ -50,9 +50,11 @@
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h1 class="brand-heading" id="educ">Education</h1>
-                    <p class="intro-text">View my courses</p><a class="btn btn-link btn-circle" role="button" href="#classes-section" style="scroll-behavior:  smooth !important;">
+                    <p class="intro-text">View my courses</p>
+                    <a class="btn btn-link btn-circle js-scroll-trigger" role="button" id="smooth" href="#classes-section" style="scroll-behavior:  smooth !important;">
                     	<i class="fa fa-angle-double-down animated"></i>
-                    </a></div>
+                    </a>
+                </div>
 	            </div>
 	        </div>
 	    </div>
@@ -174,7 +176,7 @@
 <script>
 $(document).ready(function(){
   // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
+  $("#smooth").on('click', function(event) {
 
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <link rel="icon" type="image/png" href="assets/favicon_logo.jpg">
@@ -34,7 +34,7 @@
                     <a class="nav-link js-scroll-trigger" href="cv.html">CV</a>
                   </li>
                   <li class="nav-item nav-link js-scroll-trigger" role="presentation">
-                    <a class="nav-link js-scroll-trigger" href="daxsoule.github.io/about.html#publications">Publications</a>
+                    <a class="nav-link js-scroll-trigger" href="about.html#publications">Publications</a>
                   </li>
                   <li class="nav-item nav-link js-scroll-trigger" role="presentation">
                     <a class="nav-link js-scroll-trigger" href="contact.html">Contact</a>
@@ -59,7 +59,7 @@
                 <div class="row justify-content-center">
                 <div class="col-lg-5">
                   <!-- <p class="intro-text">BRAVOSEIS<br /></p> -->
-                  <a class="btn btn-link btn-circle" role="button" href="#team" style="scroll-behavior:  smooth !important;">
+                  <a class="btn btn-link btn-circle js-scroll-trigger" id="smooth" role="button" href="#team" style="scroll-behavior:  smooth !important;">
                             <i class="fa fa-angle-double-down animated"></i>
                       </a>
                   </div>
@@ -413,7 +413,7 @@
 <script>
 $(document).ready(function(){
   // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
+  $("#smooth").on('click', function(event) {
 
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
