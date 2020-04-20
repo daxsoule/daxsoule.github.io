@@ -5,7 +5,11 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 
-html, body {width: auto!important; overflow-x: hidden!important} 
+html, body {
+	background-color: black;
+	width: auto!important; 
+	overflow-x: hidden!important
+} 
 
 .fa {
 	color: white;
@@ -21,7 +25,7 @@ html, body {width: auto!important; overflow-x: hidden!important}
 }
 
 #cv{
-	margin: 3% 0;
+	margin: 1% 0;
 }
 
 #pub-title{
@@ -281,6 +285,7 @@ img {
 
 footer {
 	background-color: #0884cc;
+	/*background-color: black;*/
 	padding: 2%;
 }
 
