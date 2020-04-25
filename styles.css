@@ -6,7 +6,7 @@ html {
 }
 
 html, body {
-	background-color: black;
+	background-color: #0884cc;
 	width: auto!important; 
 	overflow-x: hidden!important
 } 
@@ -50,6 +50,10 @@ html, body {
 
 #undergrad-3{
 	margin-top: 20%;
+}
+
+.publications{
+	margin: 5% 0 !important;
 }
 
 .d-grid {
@@ -112,6 +116,10 @@ body {
 
 .nav-item .nav-link {
 	color: #fff !important;
+}
+
+#pub-h1 {
+	padding: 3% 0;
 }
 
 #mainNav {
